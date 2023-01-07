@@ -1,0 +1,27 @@
+.hero {
+    height: 600px;
+    background-image: url('../assets/images/WALLPAPER-MAN-YPGA.PNG');
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: 15px center;
+    color: white;
+
+    h1 {
+        font-family: 'Bakbak One', cursive;
+        scale: 1.4;
+    }
+
+    .button {
+        margin-top: 4rem;
+        width: 200px;
+        padding: 1rem;
+        border-radius: .2rem;
+        background: #EE8B3A;
+        color: black;
+
+        p {
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+    }
+}
