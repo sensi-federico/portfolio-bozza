@@ -1,27 +1,32 @@
-nav {
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
 
-    font-family: 'Bakbak One', cursive;
+    nav {
+        font-family: 'Bakbak One', cursive;
 
-    .logo {
-        h6 {
-            transition: all .3s ease 0s;
+        .logo {
+            h6 {
+                transition: all .3s ease 0s;
 
-            &:hover {
-                color: #EE8B3A;
-                cursor: pointer;
+                &:hover {
+                    color: #EE8B3A;
+                    cursor: pointer;
+                }
             }
         }
-    }
 
-    .links {
-        a {
-            text-decoration: none;
-            color: black;
-            letter-spacing: 1px;
-            transition: all .3s ease 0s;
+        .links {
+            a {
+                text-decoration: none;
+                color: black;
+                letter-spacing: 1px;
+                transition: all .3s ease 0s;
 
-            &:hover {
-                color: #EE8B3A;
+                &:hover {
+                    color: #EE8B3A;
+                }
             }
         }
     }

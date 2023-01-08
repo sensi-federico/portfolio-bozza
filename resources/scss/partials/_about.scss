@@ -17,3 +17,36 @@
         padding-right: 20rem;
     }
 }
+
+.content {
+
+    span {
+        color: rgb(73, 73, 73);
+        font-weight: 600;
+    }
+
+    a {
+        text-decoration: none;
+        color: #EE8B3A;
+
+        &:hover {
+            font-weight: bold;
+            color: #EE8B3A;
+        }
+    }
+
+    .button {
+        width: 150px;
+        padding: 1rem;
+        border-radius: .2rem;
+        background: #EE8B3A;
+        letter-spacing: 1px;
+        font-weight: 600;
+        transition: all .4s ease 0s;
+
+        &:hover {
+            scale: 1.05;
+            cursor: pointer;
+        }
+    }
+}
