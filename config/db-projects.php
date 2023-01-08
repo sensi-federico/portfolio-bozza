@@ -17,7 +17,7 @@ return [
         [
             'title' => 'boolzapp',
             'image' => 'resources/assets/images/boolzapp-1.png',
-            'description' => 'A Whatsapp web app clone made as excercize in Boolean Course, after studing Javascript I made a WhatsApp clone using a Javscript Framework: VueJS.',
+            'description' => 'A Whatsapp web app clone made as excercize in Boolean Course, after studing Javascript I made a WhatsApp clone using a Javascript Framework: VueJS.',
             'technologies' => ['HTML', 'CSS', 'Bootstrap', 'VueJS']
         ],
         [
@@ -28,10 +28,10 @@ return [
             'technologies' => ['HTML', 'SASS', 'Bootstrap', 'VueJS', 'ViteJS']
         ],
         [
-            'title' => 'Vinyl Store',
+            'title' => 'Vinyls Store',
             'image' => 'resources/assets/images/vinyl-1.png',
-            'description' => 'A personal project to improve my BACKEND skills, I used a php framework Laravel. The site has an admin section where you can manage the site by creating, editing 
-            or deleting new posts (vinyls) being connected to a database ',
+            'description' => 'A personal project to improve my BACKEND skills, I used a php framework LARAVEL. The site has an admin section where you can manage the site creating, editing 
+            or deleting new posts (vinyls) being connected to a database.',
             'technologies' => ['HTML', 'SASS', 'Bootstrap', 'Laravel 9', 'MySQL']
         ],
     ]

@@ -40,9 +40,10 @@
         width: 150px;
         padding: 1rem;
         border-radius: .2rem;
-        background: #EE8B3A;
+        background: #ffa153;
         letter-spacing: 1px;
         font-weight: 600;
+        box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
         transition: all .4s ease 0s;
 
         &:hover {
