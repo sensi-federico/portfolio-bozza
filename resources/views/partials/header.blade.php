@@ -9,7 +9,7 @@
                 <a href="#">
                     <h6 class="text-uppercase m-0 pe-5">home</h6>
                 </a>
-                <a href="#">
+                <a href="#about">
                     <h6 class="text-uppercase m-0 pe-5">about</h6>
                 </a>
                 <a href="#">

@@ -41,7 +41,7 @@
 
 
 <!-- ABOUT SECTION -->
-<section class="about py-5">
+<section class="about py-5" id="about">
     <div class="text d-flex flex-column align-items-center">
         <h2 class="title text-uppercase text-center fw-bold">about me</h2>
         <div class="underline"></div>
@@ -52,7 +52,7 @@
     </div>
     <div class="content container">
         <div class="row">
-            <div class="col-5">
+            <div class="col-6">
                 <h4 class="fw-bold">Get to know me!</h4>
                 <p>
                     I'm a <span>Full-Stack Web Developer</span> building the Front-end of Websites and
@@ -72,8 +72,17 @@
                     <p class="m-0 text-uppercase text-center text-black">contact</p>
                 </div>
             </div>
-            <div class="col"></div>
+            <div class="col-6">
+                <h4 class="skill-title fw-bold pb-2">My Skills</h4>
+                <div class="skills">
+                    @foreach($skills as $skill)
+                    <h6>{{$skill}}</h6>
+                    @endforeach
+                </div>
+            </div>
         </div>
+    </div>
+    </div>
     </div>
 </section>
 <!-- /ABOUT SECTION -->

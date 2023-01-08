@@ -32,6 +32,7 @@
         &:hover {
             font-weight: bold;
             color: #EE8B3A;
+            margin-right: 1.4px;
         }
     }
 
@@ -49,4 +50,29 @@
             cursor: pointer;
         }
     }
+
+    .skill-title {
+        margin-left: 5rem;
+    }
+
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 10rem;
+        margin-left: 5rem;
+
+        h6 {
+            background: rgba(195, 195, 195, 0.718);
+            padding: 1rem;
+            margin: .3rem;
+            border-radius: .3rem;
+            transition: all .4s ease 0s;
+
+            &:hover {
+                cursor: default;
+                background-color: #EE8B3A;
+            }
+        }
+    }
+
 }
