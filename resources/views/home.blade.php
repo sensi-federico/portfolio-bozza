@@ -46,8 +46,7 @@
         <h2 class="title text-uppercase text-center fw-bold">about me</h2>
         <div class="underline"></div>
         <p class="text-center mb-5 pb-5">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Obcaecati, assumenda deserunt ullam possimus quos similique expedita reiciendis illum veniam omnis.
+            Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology
         </p>
     </div>
     <div class="content container">
@@ -82,11 +81,30 @@
             </div>
         </div>
     </div>
-    </div>
-    </div>
 </section>
 <!-- /ABOUT SECTION -->
 
 
+<!-- PROJECTS SECTION -->
+<section class="projects py-5" id="projects">
+    <div class="text d-flex flex-column align-items-center">
+        <h2 class="title text-uppercase text-center fw-bold">projects</h2>
+        <div class="underline"></div>
+        <p class="text-center mb-5 pb-5">
+            Here you will find some of the personal and clients projects that I created with each project containing its own case study
+        </p>
+    </div>
+    <div class="content container">
+        @foreach($projects as $project)
+        <div class="row">
+            <div class="col-7">
+                <img src="{{Vite::asset($project['image'])}}" alt="">
+            </div>
+            <div class="col"></div>
+        </div>
+        @endforeach
+    </div>
+</section>
+<!-- /PROJECTS SECTION -->
 
 @endsection

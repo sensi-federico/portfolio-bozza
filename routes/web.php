@@ -15,6 +15,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
-    $skills = config('db');
-    return view('home', compact('skills'));
+    $data = [
+        'skills' => config('db'),
+        'projects' => config('db-projects.projects')
+
+    ];
+    return view('home', $data);
 });

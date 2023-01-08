@@ -12,7 +12,7 @@
                 <a href="#about">
                     <h6 class="text-uppercase m-0 pe-5">about</h6>
                 </a>
-                <a href="#">
+                <a href="#projects">
                     <h6 class="text-uppercase m-0 pe-5">projects</h6>
                 </a>
                 <a href="#">

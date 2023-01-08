@@ -28,11 +28,11 @@
     a {
         text-decoration: none;
         color: #EE8B3A;
+        font-weight: 600;
 
         &:hover {
-            font-weight: bold;
             color: #EE8B3A;
-            margin-right: 1.4px;
+            text-decoration: underline;
         }
     }
 
