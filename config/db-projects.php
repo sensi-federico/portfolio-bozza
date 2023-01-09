@@ -15,10 +15,10 @@ return [
             'technologies' => ['HTML', 'CSS', 'Bootstrap']
         ],
         [
-            'title' => 'boolzapp',
-            'image' => 'resources/assets/images/boolzapp-1.png',
-            'description' => 'A Whatsapp web app clone made as excercize in Boolean Course, after studing Javascript I made a WhatsApp clone using a Javascript Framework: VueJS.',
-            'technologies' => ['HTML', 'CSS', 'Bootstrap', 'VueJS']
+            'title' => 'boolflix',
+            'image' => 'resources/assets/images/boolflix-1.png',
+            'description' => 'A Netflix clone made as excercize in Boolean Course, after studing Javascript I made a Netflix clone using an API and a Javascript Framework: VueJS + ViteJS',
+            'technologies' => ['HTML', 'CSS', 'Bootstrap', 'ViteJS', 'VueJS', 'AXIOS']
         ],
         [
             'title' => 'phlox | business',

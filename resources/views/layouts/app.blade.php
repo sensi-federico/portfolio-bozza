@@ -7,6 +7,9 @@
 
     <title>Laravel</title>
 
+    <!-- Fade effects -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- Fonts -->
     <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
@@ -21,6 +24,11 @@
         @yield('content')
     </main>
     @include('partials.footer')
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

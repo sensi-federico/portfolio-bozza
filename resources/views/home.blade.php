@@ -55,7 +55,7 @@
     </div>
     <div class="content container">
         <div class="row">
-            <div class="col-6">
+            <div class="col-6" data-aos="fade-right" data-aos-duration="1300">
                 <h4 class="fw-bold">Get to know me!</h4>
                 <p>
                     I'm a <span>Full-Stack Web Developer</span> building the Front-end of Websites and
@@ -75,7 +75,7 @@
                     <p class="m-0 text-uppercase text-center text-black">contact</p>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-6" data-aos="fade-left" data-aos-duration="1300">
                 <h4 class="skill-title fw-bold pb-2">My Skills</h4>
                 <div class="skills">
                     @foreach($skills as $skill)
@@ -101,10 +101,10 @@
     <div class="content container">
         @foreach($projects as $project)
         <div class="row py-5">
-            <div class="col-7">
+            <div class="col-7" data-aos="fade-right" data-aos-duration="1300">
                 <img src="{{Vite::asset($project['image'])}}" alt="" width="700px">
             </div>
-            <div class="col">
+            <div class="col" data-aos="fade-left" data-aos-duration="1300">
                 <h2 class="fw-bold text-capitalize pt-2">{{$project['title']}}</h2>
                 <p class="pt-3">
                     {{$project['description']}}
