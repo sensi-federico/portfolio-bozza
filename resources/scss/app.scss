@@ -6,11 +6,20 @@
 
 @import '~bootstrap/scss/bootstrap';
 @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
 
-p {
-    color: rgb(103, 103, 103);
-}
+body {
+    font-family: 'Nunito Sans', sans-serif;
 
-img {
-    max-width: 100%;
+    p {
+        color: rgb(103, 103, 103);
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .title {
+        font-family: 'Bakbak One', cursive;
+    }
 }
