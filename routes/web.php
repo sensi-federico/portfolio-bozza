@@ -22,3 +22,13 @@ Route::get('/', function () {
     ];
     return view('home', $data);
 });
+
+Route::get('/single', function () {
+
+    $data = [
+        'skills' => config('db'),
+        'projects' => config('db-projects.projects')
+
+    ];
+    return view('single', $data);
+});

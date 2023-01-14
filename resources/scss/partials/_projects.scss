@@ -1,6 +1,6 @@
 .project-button {
     margin-top: 3rem;
-    width: 160px;
+    width: 155px;
     padding: 1rem;
     border-radius: .2rem;
     background: #ffa153;
@@ -12,5 +12,14 @@
     &:hover {
         scale: 1.05;
         cursor: pointer;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+
+        &:hover {
+            color: black;
+        }
     }
 }
